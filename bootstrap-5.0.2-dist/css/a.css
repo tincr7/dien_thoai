@@ -1,0 +1,76 @@
+ul {
+    list-style: none;
+}
+.menu {
+    margin: 40px 0px;
+    padding-left: 0px;
+    float: left;
+    display: flex;
+}
+.menu>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: block;
+    padding: 8px 15px;
+}
+.menu>li:hover a{
+    color: red;
+}
+.search{
+    margin: 40px 0px;
+}
+.banner{
+    padding-bottom: 20px;
+}
+h1{
+    text-align: center;
+}
+.imgdt{
+    padding-top: 20px;
+    width:100% ;
+}
+b{
+    text-align: center;
+}.menu :hover b{
+color: red;
+}   
+.img-container:hover img {
+  border: 2px solid #ccc;/* Thiết lập viền cho hình ảnh là một đường viền có độ dày 2px và màu xám nhạt  */
+  transform: scale(0.9);/*hình ảnh co lại 90% so với kích thước ban đầu*/
+}
+.img-container img {
+    transition: transform 0.3s ease;/* Tạo hiệu ứng chuyển đổi với thời gian là 0.3 giây và hàm transition là ease */
+    width: 100%;
+    height: auto;
+}
+.dilen {
+    gap: 20px;
+    bottom: 20%;
+    right: 30px;/*cho phần tử sang bên phải của trình duyệt*/
+    z-index: 1000;/* Thiết lập thứ tự hiển thị của phần tử, các phần tử có z-index cao hơn sẽ hiển thị trước */
+    display: grid;
+    position: fixed;/* cố định phần tử*/
+    text-align: center;
+}
+.dilen>a {
+    display: block;
+    overflow: hidden;/*tràn nội dung bên trong */
+    border-radius: 50%;/* Đặt hình dạng đường viền của phần tử là hình tròn */
+    background: white;
+}
+.footer {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-top: 3px solid rgb(204, 55, 42);
+  }
+  .footer{ color:white;
+    background-color:rgb(80, 82, 83);
+  }
+.icon{
+  font-size: 40px;
+  padding-right: 20px;
+}

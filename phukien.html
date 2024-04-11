@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/pk.css">
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2">
+        <img src="./img/logo.png" alt="" class="logo" style="width: 55%;">
+      </div>
+      <div class="col-lg-5 ">
+        <div>
+          <ul class="menu">
+            <li><a href="ThanhSang.html">Trang chủ</a></li>
+            <li><a href="sp.html">iphone</a></li>
+            <li><a href="sp2.html">Samsung</a></li>
+            <li><a href="phukien.html">Phụ kiện</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="search">
+          <input type="text" name="search" placeholder="Tìm kiếm...">
+          <button type="submit">Tìm kiếm</button>
+          </form>
+          </li>
+        </div>
+      </div>
+      </div>
+      <div class="row "><img src="./img/banner phukien.jpg" alt="banner" class="banner" style="width: 99%;">
+      </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 style="color: rgb(95, 98, 98);" >Phụ kiện </h1>
+          </div>
+    </div>
+    <div class="row mtd10">
+      <div class="col-lg-2">
+          <img src="./img/Sacnhanh20WUSB-C.png" alt="">
+          <div class="text">
+              <b>Sạc nhanh 20W USB-C</b><br>
+              <b>990,000đ</b>
+          </div>
+      </div>
+      <div class="col-lg-2">
+          <img src="./img/SacnhanhAkusCB18W.jpg" alt="">
+          <div class="text">
+              <b>Sạc nhanh Akus CB18W</b><br>
+              <b>490,000đ</b>
+          </div>
+      </div>
+      <div class="col-lg-2">
+          <img src="./img/SacduphongAKUS10000mAh-A10.jpeg" alt="">
+          <div class="text">
+              <b>Sạc AKUS 10000 mAh</b><br>
+              <b>390,000đ</b>
+          </div>
+      </div>
+      <div class="col-lg-2">
+          <img src="./img/SacduphongAKUS12000mAh -B12.jpeg" alt="">
+          <div class="text">
+              <b>Sạc AKUS 12000 mAh-B12</b><br>
+              <b>300,000đ</b>
+          </div>
+      </div>
+      <div class="col-lg-2">
+          <img src="./img/airtag_.jpeg" alt="">
+          <div class="text">
+              <b>Apple Air Tag</b><br>
+              <b>650,000đ</b>
+          </div>
+      </div>
+      <div class="col-lg-2">
+          <img src="./img/apple-airpods-pro.png" alt="">
+          <div class="text">
+              <b>Apple AriPods Pro</b><br>
+              <b>4,790,000đ</b>
+          </div>
+      </div>
+  </div>
+  <section class="dilen">
+    <a  title="Lên đầu trang" 
+       class="advertise-item  gotop">
+       <img src="./img/dilen.png" alt="Lên đầu trang" title="Lên đầu trang" width="50" height=40px"" ></a>
+   </section>
+   <script>
+     document.addEventListener("DOMContentLoaded", function() {
+         // Lấy thẻ <a> trong phần dilen
+         var goToTopLink = document.querySelector('.dilen a');
+       
+         // Xử lý sự kiện click trên liên kết
+         goToTopLink.addEventListener('click', function(event) {
+             // Ngăn chặn hành vi mặc định của liên kết
+             event.preventDefault();
+     
+             // Gọi hàm cuộn mượt
+             smoothScrollToTop();
+         });
+     
+         // Hàm cuộn mượt
+         function smoothScrollToTop() {
+             const currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+     
+             if (currentScroll > 0) {
+                 window.requestAnimationFrame(smoothScrollToTop);
+                 window.scrollTo(0, currentScroll - currentScroll / 8);
+             }
+         }
+     });
+     </script>
+  <div class="row mtd10">
+    <div class="col-lg-2">
+        <img src="./img/applewatch_series6__40mm.jpg" alt="">
+        <div class="text">
+            <b>Apple Watch Series 6 40mm</b><br>
+            <b>9,590,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/Apple Watch Series 5 LTE 44mm.png" alt="">
+        <div class="text">
+            <b>Apple Watch Series 5 44mm</b><br>
+            <b>8,590,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/Apple Watch Series 4 GPS 40mm.png" alt="">
+        <div class="text">
+            <b>Apple Watch Series 4 GPS </b><br>
+            <b>4,890,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/Apple Watch Series 4 LTE 44mm.jpg" alt="">
+        <div class="text">
+            <b>Apple Watch Series 4 LTE </b><br>
+            <b>4,590,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/Apple Watch Series 2 38mm.png" alt="">
+        <div class="text">
+            <b>Apple Watch Series 2 38mm </b><br>
+            <b>2,890,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/Apple Watch Series 2 42mm.png" alt="">
+        <div class="text">
+            <b>Apple Watch Series 2 42mm</b><br>
+            <b>2,990,000đ</b>
+        </div>
+    </div>
+</div>
+  </div>
+  <div class="container">
+    <div class="row footer" style="padding-top: 30px;">
+      <div class="col-lg-4">
+        <div>
+          <p><img src="./img/logo.png">
+          <b>Thông Tin Trụ Sở</b><br>
+          Hệ thống cửa hàng điện thoại cam kết mang đến
+            các sản phẩm và dịch vụ tốt nhất phục vụ quý khách hàng. </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <h5>Hỗ trợ khách hàng:</h5>
+        <p>Nhân viên tư vấn: 0888 999 999
+        </p>
+        <p> Holine:19002902</p>
+
+      </div>
+      <div class="col-lg-4">
+        <h5>Địa Chỉ:</h5>
+        <p>Địa chỉ chi nhánh 1: 392 Phan Văn Trị
+          , P.17, Quận Bình Thạnh, Thành phố Hồ Chí Minh. </p>
+        <p>Địa chỉ chi nhánh 2: 690 Âu Cơ,P.14,Quận Bình Thạnh,Thành Phố Hồ Chí Minh. </p>
+        <span class="icon"> <i class="fa-brands fa-facebook"></i></span>
+        <span class="icon"><i class="fa-brands fa-instagram"></i></span>
+      </div>
+    </div>
+  </div>
+    </body>
+    </html>

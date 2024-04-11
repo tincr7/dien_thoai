@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/ip.css">
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2">
+        <img src="./img/logo.png" alt="" class="logo" style="width: 55%;">
+      </div>
+      <div class="col-lg-5 ">
+        <div>
+          <ul class="menu">
+            <li><a href="ThanhSang.html">Trang chủ</a></li>
+            <li><a href="sp.html">iphone</a></li>
+            <li><a href="sp2.html">Samsung</a></li>
+            <li><a href="phukien.html">Phụ kiện</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="search">
+          <input type="text" name="search" placeholder="Tìm kiếm...">
+          <button type="submit">Tìm kiếm</button>
+          </form>
+          </li>
+        </div>
+      </div>
+      </div>
+      <div class="row "><img src="./img/banneriphone.png" alt="banner" class="banner" style="width: 99%;">
+      </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 style="color: rgb(95, 98, 98);" ><i class="fa-brands fa-apple"></i>iPhone</h1>
+          </div>
+    </div>
+    <div class="row mtd10">
+      <div class="col-lg-2">
+        <a href="ctsp.html">
+          <img src="./img/ip14promaxden.png" alt="" >
+        </a>
+          <div class="text">
+              <b >Iphone 14 Promax Tím</b><br>
+              <b >18,990,000đ</b>
+          </div>
+        
+      </div>
+      <div class="col-lg-2">
+          <img src="./img/13mini.jpeg" alt="">
+          <div class="text">
+              <b>Iphone 13 Mini </b><br>
+              <b>10,990,000đ</b>
+          </div>
+      </div>
+      <div class="col-lg-2">
+          <img src="./img/ip13promax256.jpg" alt="">
+          <div class="text">
+              <b>Iphone 13 Promax 256GB</b><br>
+              <b>13,990,000đ</b>
+          </div>
+      </div>
+      
+      <div class="col-lg-2">
+          <img src="./img/ip14promax.png" alt="">
+          <div class="text">
+              <b>Iphone 14 Promax Gold</b><br>
+              <b>18,990,000đ</b>
+          </div>
+      </div>
+      <div class="col-lg-2">
+          <img src="./img/ip11 pro sliver 128gb.jpg" alt="">
+          <div class="text">
+              <b>Iphone 11 Sliver 128GB</b><br>
+              <b>8,990,000đ</b>
+          </div>
+      </div>
+      <div class="col-lg-2">
+          <img src="./img/ip13promaxblue.jpg" alt="">
+          <div class="text">
+              <b>Iphone 13 Promax Blue</b><br>
+              <b>12,990,000đ</b>
+          </div>
+      </div>
+  </div>
+  <div class="row mtd10">
+    <div class="col-lg-2">
+        <img src="./img/12pro256gbquocte.jpg" alt="">
+        <div class="text">
+            <b>Iphone 12 Pro Quốc tế 256GB</b><br>
+            <b>12,590,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/ip12xanhla.jpg" alt="">
+        <div class="text">
+            <b>Iphone 12 Pro Xanh 128GB</b><br>
+            <b>11,990,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/ip13miniwhite.jpeg" alt="">
+        <div class="text">
+            <b>Iphone 13 Mini White </b><br>
+            <b>13,990,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/ipxsmaxwhite.jpg" alt="">
+        <div class="text">
+            <b>Iphone XS Max White</b><br>
+            <b>7,990,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/ip12problue.jpg" alt="">
+        <div class="text">
+            <b>Iphone 12 Pro Blue </b><br>
+            <b>9,990,000đ</b>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <img src="./img/Ip13 128.jpg" alt="">
+        <div class="text">
+            <b>Iphone 13 128GB</b><br>
+            <b>10,990,000đ</b>
+        </div>
+    </div>
+</div>
+  </div>
+  <section class="dilen">
+    <a  title="Lên đầu trang" 
+       class="advertise-item  gotop">
+       <img src="./img/dilen.png" alt="Lên đầu trang" title="Lên đầu trang" width="50" height=40px"" ></a>
+   </section>
+   <script>
+     document.addEventListener("DOMContentLoaded", function() {
+         // Lấy thẻ <a> trong phần dilen
+         var goToTopLink = document.querySelector('.dilen a');
+       
+         // Xử lý sự kiện click trên liên kết
+         goToTopLink.addEventListener('click', function(event) {
+             // Ngăn chặn hành vi mặc định của liên kết
+             event.preventDefault();
+     
+             // Gọi hàm cuộn mượt
+             smoothScrollToTop();
+         });
+     
+         // Hàm cuộn mượt
+         function smoothScrollToTop() {
+             const currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+     
+             if (currentScroll > 0) {
+                 window.requestAnimationFrame(smoothScrollToTop);
+                 window.scrollTo(0, currentScroll - currentScroll / 8);
+             }
+         }
+     });
+     </script>
+  <div class="container">
+    <div class="row footer" style="padding-top: 30px;">
+      <div class="col-lg-4">
+        <div>
+          <p><img src="./img/logo.png">
+          <b>Thông Tin Trụ Sở</b><br>
+          Hệ thống cửa hàng điện thoại cam kết mang đến
+            các sản phẩm và dịch vụ tốt nhất phục vụ quý khách hàng. </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <h5>Hỗ trợ khách hàng</h5>
+        <p>Nhân viên tư vấn: 0888 999 999
+        </p>
+        <p> Holine:19002902</p>
+
+      </div>
+      <div class="col-lg-4">
+        <h5>Địa Chỉ</h5>
+        <p>Địa chỉ chi nhánh 1: 392 Phan Văn Trị
+          , P.17, Quận Bình Thạnh, Thành phố Hồ Chí Minh. </p>
+        <p>Địa chỉ chi nhánh 2: 690 Âu Cơ,P.14,Quận Bình Thạnh,Thành Phố Hồ Chí Minh. </p>
+        <span class="icon"> <i class="fa-brands fa-facebook"></i></span>
+        <span class="icon"><i class="fa-brands fa-instagram"></i></span>
+      </div>
+    </div>
+  </div>
+    </body>
+    </html>
